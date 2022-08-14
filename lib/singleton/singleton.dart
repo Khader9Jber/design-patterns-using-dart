@@ -18,12 +18,12 @@ class Singleton {
     it will only return the same instance that was created previously in the first call.
     */
     _instance ??= Singleton._();
-    return _instance!; // I am sure this field is not null, because I check this before.
+    return _instance!; // I am sure this field is not null, because I checked this before.
   }
 }
 
 /*
 Now to be able to create (or access this singleton instance), We have to do this:
-Singleton.getInstance(); 
+Singleton.instance; == Singleton.getInstance(); 
 This will return only the same single instance each time for calling
 */
