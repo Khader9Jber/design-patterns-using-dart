@@ -8,7 +8,7 @@ class MallardDuck extends Duck {
 
   @override
   fly() {
-// Custom Behavior
+// Custom Behavior same as RedHeadDuck
   }
 
   @override

@@ -8,19 +8,16 @@ class RedHeadDuck extends Duck {
 
   @override
   fly() {
-    // TODO: implement fly
-    throw UnimplementedError();
+    // Custom Behavior same as MallardDuck
   }
 
   @override
   quack() {
-    // TODO: implement quack
-    throw UnimplementedError();
+    // Custom Behavior
   }
 
   @override
   swim() {
-    // TODO: implement swim
-    throw UnimplementedError();
+    // Custom Behavior
   }
 }
